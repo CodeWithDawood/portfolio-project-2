@@ -13,16 +13,16 @@ body{
     height: 8000px;
     font-family: 'Poppins', sans-serif;
 }
-.box-s{
-    box-sizing: none;
-}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-
+.box-s{
+    box-sizing: none !important;
+}
 header {
     background-color: var(--dark);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
