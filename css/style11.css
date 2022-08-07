@@ -13,6 +13,9 @@ body{
     height: 8000px;
     font-family: 'Poppins', sans-serif;
 }
+.box-s{
+    box-sizing: none;
+}
 * {
     margin: 0;
     padding: 0;
