@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+.btn{
+    padding: 0.5rem 3rem;
+    color: var(--dark);
+    background-color: var(--primary);
+    cursor: pointer;
+    font-weight: 1000;
+    font-size: medium;
+    border-radius: 6px;
+    transition: .3s;
+    border-color: transparent;
+    outline: none;
+}
+.flex-1{
+    flex: 1;
+}
+.justify-center{
+    justify-content: center;
+
+}
