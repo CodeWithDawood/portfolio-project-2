@@ -9,9 +9,13 @@
     --light: #F2F2F2;
     --secondary: #070606;
 }
-body{
-    
+
+body {
+
     font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 * {
@@ -20,11 +24,12 @@ body{
 
 
 
-}  
+}
+
 header {
     background-color: var(--dark);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
-   
+
 
 }
 
@@ -40,8 +45,8 @@ header nav .left a {
     color: var(--pure);
     margin-right: 1.5rem;
     text-transform: uppercase;
-    
-    
+
+
 
 }
 
@@ -391,141 +396,183 @@ section.blog {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
     padding-bottom: 12rem;
 }
-section.blog .card-wrapper .card .image-wrapper{
+
+section.blog .card-wrapper .card .image-wrapper {
     width: 100%;
     height: 14rem;
-    
+
 }
-section.blog .section-heading{
+
+section.blog .section-heading {
     color: var(--pure);
 }
-section.blog .card-wrapper{
+
+section.blog .card-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3rem;
 }
-section.blog .card-wrapper .card{
+
+section.blog .card-wrapper .card {
     background-color: var(--pure);
 }
-section.blog .card-wrapper .card .card-content{
+
+section.blog .card-wrapper .card .card-content {
     padding: 1rem 2rem;
 }
-section.blog .card-wrapper .card .card-content h1{
+
+section.blog .card-wrapper .card .card-content h1 {
     font-size: 1rem;
     font-weight: 600;
 
 }
-section.blog .card-wrapper .card .card-content a{
- color: var(--secondary);
- text-decoration: none;
+
+section.blog .card-wrapper .card .card-content a {
+    color: var(--secondary);
+    text-decoration: none;
 }
-section.blog .card-wrapper .card .card-content span{
+
+section.blog .card-wrapper .card .card-content span {
     color: var(--ternary);
     font-size: 0.8rem;
 }
-section.blog .card-wrapper .card .card-content p{
+
+section.blog .card-wrapper .card .card-content p {
     font-family: 'Lato', sans-serif;
     color: var(--ternary);
     margin: 1rem 0rem;
 }
+
 section.blog .card-wrapper .card .card-content .read-more {
-font-size: 0.8rem;
+    font-size: 0.8rem;
 }
-section.blog .card-wrapper .card .card-content a:hover{
+
+section.blog .card-wrapper .card .card-content a:hover {
     color: var(--primary);
 }
 
 
-section.contact .card-wrapper-c {
-   
-}
+section.contact .card-wrapper-c {}
 
 
 section.contact .card-wrapper-c {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 3rem;
 }
-section.contact .card-wrapper-c .card{
+
+section.contact .card-wrapper-c .card {
     text-align: center;
 }
 
-section.contact .card-wrapper-c .card img{
+section.contact .card-wrapper-c .card img {
     margin-bottom: 3rem;
 }
-section.contact .card-wrapper-c .card h1{
+
+section.contact .card-wrapper-c .card h1 {
     font-weight: 400;
     margin-bottom: 1rem;
 }
-section.contact .card-wrapper-c .card h6{
+
+section.contact .card-wrapper-c .card h6 {
     font-size: 1rem;
     color: var(--ternary);
     font-weight: 400;
     margin-bottom: 6rem;
 }
 
-section.contact .input-wrap{
+section.contact .input-wrap {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     margin-bottom: 1.5rem;
 }
-section.contact .input-wrap2{
+
+section.contact .input-wrap2 {
     display: flex;
     flex-direction: column;
 }
 
-section.contact input{
+section.contact input {
     padding: 0.6rem 1rem;
     border: 1px solid --light;
     font-size: 0.8rem;
 }
-section.contact .input-wrap2 input{
+
+section.contact .input-wrap2 input {
     border: 1px solid --light;
     margin-bottom: 2rem;
     font-size: 0.8rem;
 }
-section.contact .input-wrap2 textarea{
+
+section.contact .input-wrap2 textarea {
     padding: 0.5rem;
     border: 1px solid --light;
     font-size: 0.8rem;
 }
-section.contact .input-wrap2 textarea:focus, section.contact input:focus{
+
+section.contact .input-wrap2 textarea:focus,
+section.contact input:focus {
     outline: none;
 }
-section.contact   .btn-wrapper{
+
+section.contact .btn-wrapper {
     text-align: center;
     margin-top: 2rem;
 }
-footer{
+section.contact .btn-wrapper .btn-primary:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+
+}
+section.contact  .btn-11{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    
+}
+
+footer {
     background: var(--dark);
     text-align: center;
-    padding: 3rem ;
+    padding: 3rem;
 }
- footer .footer-logo{
+
+footer .footer-logo {
     margin-bottom: 2rem;
     width: 180px;
- }
- footer .footer-social a{
+}
+
+footer .footer-social a {
     margin-right: 1rem;
- }
- footer .footer-social a img:hover{
-background-color: var(--primary);
- }
- footer .footer-social a img {
+}
+
+footer .footer-social a img:hover {
+    background-color: var(--primary);
+}
+
+footer .footer-social a img {
     background-color: var(--ternary);
     border-radius: 100%;
     height: 35px;
     width: 35px;
- }
- footer .footer-social{
+}
+
+footer .footer-social {
     margin-bottom: 2rem;
-    margin-right: -1rem ;
-    
- }
- footer .copyright{
+    margin-right: -1rem;
+
+}
+
+footer .copyright {
     color: var(--ternary);
- }
+}
 
 
 
@@ -535,6 +582,3 @@ background-color: var(--primary);
     padding: 20%;
 
 } */
-*{
-    box-sizing: border-box;
-}
