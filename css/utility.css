@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
 .btn {
     padding: 0.8rem 3rem;
     font-size: 1rem;
@@ -16,25 +20,28 @@
     text-transform: uppercase;
     transition: all .3s ease;
 }
-.btn-primary{
+
+.btn-primary {
     background: var(--primary);
     color: var(--secondary);
 }
-.btn-primary:hover{
-    background:transparent;
+
+.btn-primary:hover {
+    background: transparent;
     border-color: var(--primary);
     color: var(--primary);
 
 }
-.btn-secondary{
+
+.btn-secondary {
     background: transparent;
     color: var(--primary);
     border-color: var(--primary);
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover {
     background: var(--primary);
-    color:var(--secondary)
+    color: var(--secondary)
 }
 
 .flex-1 {
