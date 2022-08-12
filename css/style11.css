@@ -579,6 +579,9 @@ section.contact .card-wrapper-c .card img {
 
 
 @media (max-width: 1024px) {
+    .site-main-wrapper .mobile-nav ul li{
+        scroll-behavior: smooth;
+    }
     header #main-nav {
         display: none
     }
@@ -632,13 +635,14 @@ section.contact .card-wrapper-c .card img {
     section.blog {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 96%, 0 100%);
     }
-
+    
 
 
 
 }
 
 @media (max-width: 576px) {
+    
     .hero {
         flex-direction: column;
     }
@@ -767,18 +771,31 @@ section.contact .card-wrapper-c .card img {
 
 .hamberger {
     position: absolute;
-    top: 40px;
-    right: 40px;
+    top: 25px;
+    right: 30px;
     z-index: 11;
     background: none;
-    border: none;
+    
+    border-radius: 30px;
     outline: none;
     cursor: pointer;
     display: none;
 }
 
-.hamberger img {
-    width: 25px;
+.hamberger  img {
+    width: 45px;
+    height: 40px;
+    background: var(--primary);
+    border-radius: 25px;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+
+}
+
+.site-main-wrapper .menu-logo-main .logo-menu-main{
+    
+  
 }
 
 .mobile-nav {
