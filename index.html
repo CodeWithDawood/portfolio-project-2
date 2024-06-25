@@ -1,362 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dawood Junaid</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,500&family=Lato&family=Questrial&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,500&family=Lato&family=Questrial&display=swap");
     </style>
     <link rel="stylesheet" href="css/style11.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="site-main-wrapper">
-        <div class="mega">
-            <!-- <div class="menu-logo-main">
+      <div class="mega">
+        <!-- <div class="menu-logo-main">
                 <img class="logo-menu-main" src="images/logo-2.svg" alt="">
             </div> -->
-            <button class="hamberger"><img src="/images/menu-new.png" alt=""></button>
+        <button class="hamberger">
+          <img src="/images/menu-new.png" alt="" />
+        </button>
+      </div>
+      <div class="mobile-nav">
+        <button class="times"><img src="/images/times.png" alt="" /></button>
+        <div class="menu-logo">
+          <img src="images/menu-logo-2.png" alt="" />
         </div>
-        <div class="mobile-nav">
-            <button class="times"><img src="/images/times.png" alt=""></button>
-            <div class="menu-logo">
-                <img src="images/menu-logo-2.png" alt="">
+
+        <ul>
+          <li><a id="h-home" href="#">Home</a></li>
+          <li><a id="h-about" href="#about">About</a></li>
+          <li><a id="h-services" href="#services">Services</a></li>
+          <li><a id="h-work" href="#work">Work</a></li>
+          <li><a id="h-blog" href="#blog">Blog</a></li>
+        </ul>
+      </div>
+      <header>
+        <div class="container">
+          <nav id="main-nav" class="flex item-center justify-between">
+            <div class="left flex item-center">
+              <div class="branding">
+                <img src="./images/logo (2).png" alt="" />
+              </div>
+              <a href="">Home</a>
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#work">Work</a>
             </div>
 
-            <ul>
-                <li><a id="h-home" href="#">Home</a></li>
-                <li><a id="h-about" href="#about">About</a></li>
-                <li><a id="h-services" href="#services">Services</a></li>
-                <li><a id="h-work" href="#work">Work</a></li>
-                <li><a id="h-blog" href="#blog">Blog</a></li>
-
-            </ul>
+            <div class="right">
+              <a href="#contact">
+                <button class="btn btn-primary">Contact</button></a
+              >
+            </div>
+          </nav>
+          <div class="hero flex item-center justify-between">
+            <div class="left flex flex-1 justify-center">
+              <img src="images/man.png" alt="img" />
+            </div>
+            <div class="right flex-1">
+              <h6>Dawood Junaid</h6>
+              <h1>
+                I'm a Web<br />
+                <span> Developer</span>
+              </h1>
+              <p>
+                Hello! I am Dawood Junaid, passionate about revolutionizing
+                Computer Science education in Pakistan through my EdTech
+                startup, Code Bite. As both an Entrepreneur and a skilled MERN
+                Developer, I am dedicated to empowering students with practical
+                skills and job opportunities.
+              </p>
+              <div class="right-btn-header">
+                <a
+                  href="https://drive.google.com/file/d/1wL4Q8_mrIdqS-upUtAc6WfCjeZF3sfuz/view?usp=sharing"
+                >
+                  <button class="btn sec-btn">Download CV</button></a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-        <header>
-            <div class="container">
-                <nav id="main-nav" class="flex item-center  justify-between">
-                    <div class="left flex item-center">
-                        <div class="branding">
-                            <img src="./images/logo.svg" alt="">
-                        </div>
-                        <a href="">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#services">Services</a>
-                        <a href="#work">Work</a>
-                       
-                    </div>
+      </header>
 
-                    <div class="right ">
-                        <button class="btn btn-primary">Contact</button>
-                    </div>
+      <section id="about" class="about">
+        <div class="container flex item-center about-inner-wrap">
+          <div class="about-left flex-1">
+            <img class="about-img" src="images/man-2.png" alt="img" />
+          </div>
+          <div class="about-right flex-1 right">
+            <h1>About <span>Me</span></h1>
+            <h3>Hello! I’m Dawood Junaid.</h3>
+            <p>
+              Hello! I'm Dawood Junaid, driven by a vision to transform Computer
+              Science education in Pakistan with my EdTech startup, Code Bite.
+              Combining my entrepreneurial spirit with expertise as a MERN
+              Developer, I strive to equip students with essential skills and
+              open doors to promising career opportunities. My goal is to merge
+              theoretical learning with hands-on experience, ensuring students
+              are not only knowledgeable but also industry-ready. Through Code
+              Bite, I aim to make high-quality, practical education accessible
+              to all, fostering a new generation of tech-savvy professionals.
+            </p>
+            <div class="social">
+              <a href="https://github.com/CodeWithDawood"
+                ><img src="images/github22.png" alt=""
+              /></a>
+              <a href="https://www.linkedin.com/in/codewithdawood/"
+                ><img src="images/linkdin22.png" alt=""
+              /></a>
+              <a href="https://code-with-dawood-portfolio-website.netlify.app/#"
+                ><img src="images/web22.png" alt=""
+              /></a>
 
-                </nav>
-                <div class="hero flex  item-center justify-between">
-                    <div class="left flex flex-1 justify-center ">
-                        <img src="images/man.png" alt="img">
-                    </div>
-                    <div class="right flex-1 ">
-                        <h6> Dawood Junaid</h6>
-                        <h1>I'm a Creative <br> <span> Designer</span></h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut
-                            labore et
-                            dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi
-                            ut
-                            aliquip ex ea commodo consequat</p>
-                        <div class="right-btn-header">
-                            <button class="btn sec-btn">Download CV</button>
-                        </div>
-                    </div>
-                </div>
+              <a href="https://www.facebook.com/codewithdawoodjunaid"
+                ><img src="images/facebook22.png" alt=""
+              /></a>
             </div>
-        </header>
+          </div>
+        </div>
+      </section>
 
+      <section id="services" class="services">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Services</h1>
+          <p>
+            We provide high standar clean website for your business solutions
+          </p>
 
-
-        <section id="about" class="about ">
-            <div class=" container flex item-center  about-inner-wrap ">
-                <div class=" about-left flex-1 ">
-                    <img class="about-img " src="images/man-2.png" alt="img">
-                </div>
-                <div class="about-right flex-1  right">
-                    <h1> About <span>Me</span></h1>
-                    <h3>Hello! I’m Johnathan Vics.</h3>
-                    <p>orem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip
-                        ex ea commodo consequat. Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
-                        tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation
-                        ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat</p>
-                    <div class="social">
-                        <a href=""><img src="images/github22.png" alt=""></a>
-                        <a href=""><img src="images/linkdin22.png" alt=""></a>
-                        <a href=""><img src="images/web22.png" alt=""></a>
-                        <a href=""><img src="images/twitter.png" alt=""></a>
-                        <a href=""><img src="images/instagram22.png" alt=""></a>
-                        <a href=""><img src="images/facebook22.png" alt=""></a>
-                    </div>
-                </div>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="images/software-eng.png" alt="" />
+              <h2>Software Engineer</h2>
+              <p>
+                I excel in designing, developing, and maintaining software
+                applications, ensuring robust and scalable solutions.
+              </p>
             </div>
-        </section>
 
-
-
-
-        <section id="services" class="services ">
-            <div class="container ">
-                <h1 class="section-heading"><span>Our</span> Services</h1>
-                <p>We provide high standar clean website for your business solutions</p>
-
-                <div class="card-wrapper">
-                    <div class="card">
-                        <img src="images/software-eng.png" alt="">
-                        <h2>Software Engineer</h2>
-                        <p>There are many variations of passages of but the majority have suffered alteration in some
-                            form.
-                        </p>
-
-                    </div>
-
-                    <div class="card">
-                        <img src="images/web-dev.png" alt="">
-                        <h2>Web Developer</h2>
-                        <p>There are many variations of passages of but the majority have suffered alteration in some
-                            form.
-                        </p>
-
-                    </div>
-                    <div class="card">
-                        <img src="images/web-designer.png" alt="">
-                        <h2>Web Designer</h2>
-                        <p>There are many variations of passages of but the majority have suffered alteration in some
-                            form.
-                        </p>
-
-                    </div>
-                    <div class="card">
-                        <img src="images/project-management.png" alt="">
-                        <h2>Project Management</h2>
-                        <p>There are many variations of passages of but the majority have suffered alteration in some
-                            form.
-                        </p>
-
-                    </div>
-                    <div class="card">
-                        <img src="images/pwa.png" alt="">
-                        <h2>Progressive Web App</h2>
-                        <p>There are many variations of passages of but the majority have suffered alteration in some
-                            form.
-                        </p>
-
-                    </div>
-
-                    <div class="card">
-                        <img src="images/solidity.png" alt="">
-                        <h2>Solidity</h2>
-                        <p>There are many variations of passages of but the majority have suffered alteration in some
-                            form.
-                        </p>
-                    </div>
-                </div>
+            <div class="card">
+              <img src="images/web-dev.png" alt="" />
+              <h2>Web Developer</h2>
+              <p>
+                Specializing in front-end and back-end development, I create
+                dynamic, user-friendly websites and applications.
+              </p>
             </div>
-        </section>
-
-
-
-        <section class="freelancer">
-            <h1>I Am Available For Freelancer.</h1>
-            <p>We provide high standard clean website for your business solutions</p>
-            <button class="btn btn-primary">Download CV</button>
-        </section>
-
-        <section class="reviews">
-            <div class="container">
-                <h1 class="section-heading"> <span>Our</span> Client</h1>
-                <p>we provide high standard clean website for your business solution</p>
-                <div class="slider">
-                    <div class="slide">
-                        <img class="client-new" src="./images/client-pic-new.png" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatibus aliquid iure
-                            fugiat, quibusdam esse amet saepe sint quo labore consequuntur assumenda praesentium a
-                            magnam.
-                        </p>
-                        <span> -john Doel , company ABC</span>
-                    </div>
-                    <div class="slide">
-                        <img class="client-new" src="./images/client-pic-new.png" alt="">
-                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum"</p>
-                        <span>- John Doel, Company ABC</span>
-                    </div>
-                    <div class="slide">
-                        <img class="client-new" src="./images/client-pic-new.png" alt="">
-                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum"</p>
-                        <span>- John Doel, Company ABC</span>
-                    </div>
-                    <div class="slide">
-                        <img class="client-new" src="./images/client-pic-new.png" alt="">
-                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum"</p>
-                        <span>- John Doel, Company ABC</span>
-                    </div>
-                </div>
-                <div class="slider-dots"></div>
+            <div class="card">
+              <img src="images/web-designer.png" alt="" />
+              <h2>Web Designer</h2>
+              <p>
+                I craft visually appealing and intuitive web designs that
+                enhance user experience.
+              </p>
             </div>
-        </section>
-
-
-
-
-
-        <section id="work" class="work">
-            <div class="container">
-                <h1 class="section-heading"><span>Our</span> Work</h1>
-                <p>We provide high standar clean website for your business solutions</p>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Developement</a>
-                        </div>
-                        <img src="images/article-ph-1.png" alt="">
-
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Developement</a>
-                        </div>
-                        <img src="images/article-ph-1.png" alt="">
-
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Developement</a>
-                        </div>
-                        <img src="images/article-ph-1.png" alt="">
-
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Developement</a>
-                        </div>
-                        <img src="images/article-ph-1.png" alt="">
-
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Developement</a>
-                        </div>
-                        <img src="images/article-ph-1.png" alt="">
-
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Developement</a>
-                        </div>
-                        <img src="images/article-ph-1.png" alt="">
-                    </div>
-                </div>
+            <div class="card">
+              <img src="images/project-management.png" alt="" />
+              <h2>Project Management</h2>
+              <p>
+                With strong organizational and leadership skills, I manage
+                projects from conception to completion. My approach ensures
+                timely delivery, budget adherence, and successful outcomes.
+              </p>
             </div>
-        </section>
-
-
-
-        
-
-
-        <section id="contact" class="contact">
-
-            <div class="container asdf ">
-                <h1 class="section-heading">Contact <span>Us</span></h1>
-                <p>
-                    We provide high standar clean website for your business solutions
-                </p>
-                <div class="card-wrapper-c">
-                    <div class="card">
-                        <img src="images/contact-new.png" alt="">
-                        <h1>Call Us On</h1>
-                        <h6>+92 121 11111</h6>
-                    </div>
-                    <div class="card">
-                        <img src="images/email-new.png" alt="">
-                        <h1>Email Us At</h1>
-                        <h6>codewithdawood@gmail.com</h6>
-                    </div>
-                    <div class="card ofice-icon">
-                        <img src="images/office-new.png" alt="">
-                        <h1>Visit Office</h1>
-                        <h6>Microlab Solutions, Karachi Pakistan</h6>
-                    </div>
-
-                </div>
-                <form class="abc" action="">
-                    <div class="input-wrap">
-                        <input type="text" placeholder="Your Name *">
-                        <input type="email" placeholder="Your Email *">
-                    </div>
-
-                    <div class="input-wrap2">
-                        <input type="text" placeholder="Your Subject..... *">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
-                    </div>
-                    <div class="   btn-wrapper">
-                        <button class="btn btn-primary"> Send Message </button>
-                    </div>
-                </form>
+            <div class="card">
+              <img src="images/pwa.png" alt="" />
+              <h2>Progressive Web App</h2>
+              <p>
+                I develop Progressive Web Apps (PWAs) that combine the best of
+                web and mobile applications. My focus is on creating reliable,
+                fast, and engaging PWAs for all devices.
+              </p>
             </div>
-        </section>
 
-
-
-
-        <footer>
-            <img class="footer-logo" src="images/logo-2.svg" alt="">
-            <div class="footer-social">
-                <a href=""><img src="images/github22.png" alt=""></a>
-                <a href=""><img src="images/linkdin22.png" alt=""></a>
-                <a href=""><img src="images/web22.png" alt=""></a>
-                <a href=""><img src="images/twitter.png" alt=""></a>
-                <a href=""><img src="images/instagram22.png" alt=""></a>
-                <a href=""><img src="images/facebook22.png" alt=""></a>
+            <div class="card">
+              <img src="images/solidity.png" alt="" />
+              <h2>Solidity</h2>
+              <p>
+                I develop smart contracts for blockchain applications. My skills
+                ensure secure, efficient, and transparent contract execution in
+                decentralized technology.
+              </p>
             </div>
-            <div class="copyright">
-                Copyright 2024 © Code With Dawood
+          </div>
+        </div>
+      </section>
+
+      <section class="freelancer">
+        <h1>I Am Available For Freelancer.</h1>
+        <p>
+          We provide high standard clean website for your business solutions
+        </p>
+        <a
+          href="https://drive.google.com/file/d/1wL4Q8_mrIdqS-upUtAc6WfCjeZF3sfuz/view?usp=sharing"
+        >
+          <button class="btn btn-primary">Download CV</button></a
+        >
+      </section>
+
+      <section class="reviews">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Client</h1>
+          <p>
+            We provide high standard clean website for your business solution.
+          </p>
+          <div class="slider">
+            <div class="slide">
+              <img
+                class="client-new"
+                src="./images/client-pic-new.png"
+                alt=""
+              />
+              <p>
+                "Dawood Junaid transformed our vision into reality with his
+                exceptional WordPress development skills. He created a stunning,
+                user-friendly website that not only looks amazing but also
+                functions flawlessly. His expertise in theme customization and
+                plugin development was evident in every aspect of the project.
+                Dawood was highly professional, responsive, and dedicated to
+                meeting our needs, making the entire process smooth and
+                enjoyable. We couldn't be happier with the final product and
+                highly recommend Dawood for any WordPress development needs.""
+              </p>
+              <span> Sadia, Business Developer</span>
             </div>
-        </footer>
+            <div class="slide">
+              <img
+                class="client-new"
+                src="./images/client-pic-new.png"
+                alt=""
+              />
+              <p>
+                "Dawood Junaid exceeded our expectations with his outstanding web development skills. He delivered a dynamic, user-friendly website that perfectly matched our requirements. His attention to detail and ability to solve complex problems were truly impressive."
+              </p>
+              <span>- Bilal, Business Developer</span>
+            </div>
+         
+          
+          </div>
+          <div class="slider-dots"></div>
+        </div>
+      </section>
+
+      <section id="work" class="work">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Work</h1>
+          <p>
+            We provide high standar clean website for your business solutions.
+          </p>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web Developement</a>
+              </div>
+              <img src="images/article-ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web Developement</a>
+              </div>
+              <img src="images/article-ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web Developement</a>
+              </div>
+              <img src="images/article-ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web Developement</a>
+              </div>
+              <img src="images/article-ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web Developement</a>
+              </div>
+              <img src="images/article-ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web Developement</a>
+              </div>
+              <img src="images/article-ph-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container asdf">
+          <h1 class="section-heading">Contact <span>Us</span></h1>
+          <p>
+            We provide high standar clean website for your business solutions
+          </p>
+          <div class="card-wrapper-c">
+            <div class="card">
+              <img src="images/contact-new.png" alt="" />
+              <h1>Call Us On</h1>
+              <h6>+92 300 0112955</h6>
+            </div>
+            <div class="card">
+              <img src="images/email-new.png" alt="" />
+              <h1>Email Us At</h1>
+              <h6>dawooodjunaiiid@gmail.com</h6>
+            </div>
+            <div class="card ofice-icon">
+              <img src="images/office-new.png" alt="" />
+              <h1>Visit Office</h1>
+              <h6>Codebite, NEP NIC SMI University, Karachi.</h6>
+            </div>
+          </div>
+          <form class="abc" action="">
+            <div class="input-wrap">
+              <input type="text" placeholder="Your Name *" />
+              <input type="email" placeholder="Your Email *" />
+            </div>
+
+            <div class="input-wrap2">
+              <input type="text" placeholder="Your Subject..... *" />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Message..."
+              ></textarea>
+            </div>
+            <div class="btn-wrapper">
+              <button class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <img class="footer-logo" src="images/logo (2).png" alt="" />
+        <div class="footer-social">
+          <a href="https://github.com/CodeWithDawood"
+            ><img src="images/github22.png" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/codewithdawood/"
+            ><img src="images/linkdin22.png" alt=""
+          /></a>
+          <a href="https://code-with-dawood-portfolio-website.netlify.app/#"
+            ><img src="images/web22.png" alt=""
+          /></a>
+
+          <a href="https://www.facebook.com/codewithdawoodjunaid"
+            ><img src="images/facebook22.png" alt=""
+          /></a>
+        </div>
+        <div class="copyright">Copyright 2024 © Code With Dawood</div>
+      </footer>
     </div>
 
-
-
-
-
-
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <script src="js/app.js"></script>
-
-
-</body>
-
+  </body>
 </html>
